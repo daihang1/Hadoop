@@ -39,7 +39,7 @@ public class FlowBean implements WritableComparable<FlowBean> {
     public String toString() {
         return "FlowBean{" + "upFlow=" + upFlow + ", downFlow=" + downFlow + ", sumFlow=" + sumFlow + '}';
     }
-
+    //aaaa
     public int compareTo(FlowBean o) {
         return this.sumFlow>o.getSumFlow()?-1:1;
     }
