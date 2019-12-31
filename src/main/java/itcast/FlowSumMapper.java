@@ -6,7 +6,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
-
+//修改
 public class FlowSumMapper extends Mapper<LongWritable,Text,Text,FlowBean> {
     FlowBean v=new FlowBean();
     Text k=new Text();
